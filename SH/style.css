@@ -1,0 +1,27 @@
+main {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+tr td:first-child {
+    text-align: right;
+    padding-right: 5px;
+}
+.required {
+    color: red;
+}
+input {
+    width: 150px;
+}
+#addrBlockTop>* {
+    padding-top: 20px;
+    position: relative;
+    bottom: 5px;
+}
+#addrBlockBot>* {
+    padding-bottom: 20px;
+    position: relative;
+    top: 5px;
+}
