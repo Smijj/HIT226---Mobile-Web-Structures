@@ -1,19 +1,20 @@
 <!DOCTYPE html>
-<html>
-    <header>
-        <title>Registration Form</title>
-        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./style.css">
-    </header>
+        <title>Registration Form</title>
+    </head>
     <body>
-        <main>
-            <Form action="POST" href="./success.html">
-                <table>
+        <main class="reg">
+            <Form action="./success.html" method="POST">
+                <table class="regForm">
                     <tr>
-                        <td colspan="2" style='text-align: center;'><h2>Registration</h2></td>
+                        <td colspan="2" class="center"><h2>Registration</h2></td>
                     </tr>
                     <tr>
-                        <td><label for="name"><span class="required">* </span>First Name:</label></td>
+                        <td><label for="name"><span class="required">* </span>Name:</label></td>
                         <td><input type="text" name="name" id="name" placeholder="Bob Smith" required></td>
                     </tr>
                     <tr>
@@ -21,8 +22,8 @@
                         <td><input type="email" name="email" id="email" placeholder="example123@example.com" pattern='^[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,}' required></td>
                     </tr>
                     <tr>
-                        <td><label for="phone-no">Phone Number:</label></td>
-                        <td><input type="tel" name="phoneNo" id="phone-no" placeholder="(00)00 000 000" pattern='^\+?\d{0,13}'></td>
+                        <td><label for="phone-no" id="phone-no-label">Phone Number:</label></td>
+                        <td><input type="tel" name="phoneNo" id="phone-no" placeholder="12345678" pattern='^\+?\d{8,13}' maxlength="14"></td>
                     </tr>
                     <tr>
                         <td><label for="dob"><span class="required">* </span>Date of birth:</label></td>
@@ -38,11 +39,11 @@
                     </tr>
                     <tr>
                         <td><label for="addr-state"><span class="required">* </span>State:</label></td>
-                        <td><input type="text" name="addr-state" id="addr-state" placeholder="NSW" required></td>
+                        <td><input type="text" name="addr-state" id="addr-state" placeholder="NSW" required maxlength="3"></td>
                     </tr>
                     <tr id="addrBlockBot">
-                        <td><label for="addr-zip"><span class="required">* </span>Zip:</label></td>
-                        <td><input type="text" name="addr-zip" id="addr-zip" placeholder="0081" required></td>
+                        <td><label for="addr-pcode"><span class="required">* </span>Post Code:</label></td>
+                        <td><input type="text" name="addr-pcode" id="addr-pcode" placeholder="0081" required pattern="^\d{4}$" maxlength="4"></td>
                     </tr>
                     <tr>
                         <td><label for="pwd"><span class="required">* </span>Password:</label></td>
@@ -53,8 +54,7 @@
                         <td><input type="password" name="pwdconf" id="pwdconf" required></td>
                     </tr>
                     <tr>
-                        <td></td>
-                        <td><button type="submit">Submit</button></td>
+                        <td colspan="2" class="center"><button type="submit">Submit</button></td>
                     </tr>
                 </table>
             </Form>

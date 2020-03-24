@@ -1,0 +1,76 @@
+/* ----FORM PAGE---- */
+main.reg {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: #d3d3d3;
+    padding: 20px;
+}
+/* TABLE */
+table.regForm td:first-child {
+    text-align: right;
+    padding-right: 5px;
+    font-weight: bold;
+}
+table.regForm td.center {
+    text-align: center;
+}
+td {
+    font-size: 18px;
+    padding: 2px;
+}
+.required {
+    color: #a10101;
+}
+/* INPUT */
+input {
+    width: 250px;
+    font-size: 18px;
+    outline: none;
+    border: 2px solid #8b8b8b;
+    padding: 2px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+input:focus {
+    border: 2px solid #0c0c0c;
+    background-color: #f3f3f3;
+}
+input:invalid {
+    background-color: #ffd7d7;
+}
+/* MISC */
+label#phone-no-label {
+    font-weight: 300;
+}
+#addrBlockTop>* {
+    padding-top: 20px;
+    position: relative;
+    bottom: 5px;
+}
+#addrBlockBot>* {
+    padding-bottom: 20px;
+    position: relative;
+    top: 5px;
+}
+button {
+    margin-top: 10px;
+    padding: 3px 6px;
+    font-size: 15px;
+}
+/* ----SUCCESS PAGE---- */
+main.success {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: #00800080;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}
