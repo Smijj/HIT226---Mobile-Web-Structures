@@ -1,0 +1,45 @@
+/* Body Styling */
+html {
+	background-image: url("background2.gif");
+	background-repeat: repeat;
+}
+
+#tablecontainer {
+	text-align: center;
+}
+
+table {
+	border-spacing: 30px 0;
+	display: inline-block;
+}
+
+td {
+  padding: 5px 0;
+}
+
+
+#form {
+	padding: 20px;
+	background-color: black;
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+	
+}
+
+.maininput {
+	width: 150px;
+}
+
+#buttoncontainer {
+	text-align: center;
+}
+
+
+#button {
+	display: inline-block;
+}
