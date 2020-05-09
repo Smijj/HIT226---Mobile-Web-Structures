@@ -106,11 +106,15 @@ main {
 .featureArticle {
     width: 60%;
     height: 100%;
-    padding: 0 10px 0;
+    padding: 4px 10px 4px;
     text-align: center;
+    transition: background-color, 0.4s;
+}
+.featureArticle:hover {
+    background-color: rgb(190, 190, 190);
 }
 .featureArticleImg {
-    width: 200px;
+    width: 50%;
     height: auto;
 }
 .featuredArticleHeading {
@@ -128,13 +132,24 @@ main {
     padding-left: 13px; /* 10px padding + 3px border */
     border-left: 3px solid #530b7a;
 }
+#recentArticleContainer article {
+    width: 50%;
+    padding: 4px;
+    transition: background-color, 0.4s;
+}
+#recentArticleContainer article:hover {
+    background-color: rgb(190, 190, 190);
+}
+.articleImg {
+    width: 70%;
+    height: auto;
+}
 
 /* Scrolling Articles */
 #scrollingArticleContainer {
     display: flex;
     flex-flow: wrap row;
 }
-
 #scrollingArticleContainer article {
     background-color: lightgrey;
     margin: 5px auto 15px;
