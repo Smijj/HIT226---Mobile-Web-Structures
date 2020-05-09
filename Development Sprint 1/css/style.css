@@ -228,6 +228,9 @@ footer {
 }
 
 /* ----- General ----- */
+::-webkit-scrollbar {
+    display: none;
+}
 ul {
     list-style-type: none;
     padding: 0;
