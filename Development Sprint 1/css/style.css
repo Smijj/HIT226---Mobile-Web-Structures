@@ -157,6 +157,10 @@ main {
     width: 400px;
     height: 400px;
     text-align: center;
+    transition: background-color, 0.4s;
+}
+#scrollingArticleContainer article:hover {
+    background-color: rgb(190, 190, 190);
 }
 
 
