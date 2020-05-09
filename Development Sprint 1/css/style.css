@@ -151,9 +151,9 @@ main {
     flex-flow: wrap row;
 }
 #scrollingArticleContainer article {
-    background-color: lightgrey;
+    background-color: gainsboro;
     margin: 5px auto 15px;
-    padding: 4px;
+    padding: 10px;
     width: 400px;
     height: 400px;
     text-align: center;
@@ -252,12 +252,10 @@ ul {
 
 
 /* ----- Media Queries ----- */
-
 @media screen and (max-width:1024px){
     nav {
         padding: 0 15% 0;
     }
-    
     main {
         width: 100%;
     }
@@ -279,6 +277,7 @@ ul {
         width: auto;
     }
 }
+
 @media screen and (max-width:768px){
     nav {
         padding: 0 10% 0;
@@ -291,6 +290,7 @@ ul {
         height: 350px;
     }
 }
+
 @media screen and (max-width:425px){
     nav {
         padding: 0 5% 0;
@@ -307,6 +307,13 @@ ul {
         text-align: center;
     }
     
+    #recentArticleContainer section{
+        flex-direction: column;
+        align-items: center;
+    }
+    #recentArticleContainer article{
+        width: 100%;
+    }
     #scrollingArticleContainer article {
         width: 300px;
         height: 300px;
