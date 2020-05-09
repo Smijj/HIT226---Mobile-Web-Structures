@@ -210,8 +210,23 @@ footer {
     background-color: #bbbbbb;
 }
 
+#style_404{
+    width: 100%; 
+    margin: 5px;
+}
+#style_404 section{ 
+    width: 50%;
+    margin: auto;
+}
+#style_404 section p{ 
+    margin: 10px 0 5px;
+}
 
 /* ----- General ----- */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
 .textVerticalAlign {
     text-align: center;
 }
@@ -290,5 +305,8 @@ footer {
     #scrollingArticleContainer article {
         width: 300px;
         height: 300px;
+    }
+    #style_404 section{ 
+        width: 70%;
     }
 }
