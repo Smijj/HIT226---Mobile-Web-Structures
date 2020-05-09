@@ -40,7 +40,7 @@ h1 {
 
 /* ----- Navigation ----- */
 nav {
-	padding: 0 15% 0;
+	padding: 0 25% 0;
 	background: #530b7a;
     overflow: hidden;
     min-height: 30px;
@@ -220,7 +220,7 @@ footer {
 
 @media screen and (max-width:1024px){
     nav {
-        padding: 0;
+        padding: 0 15% 0;
     }
     
     main {
@@ -245,6 +245,9 @@ footer {
     }
 }
 @media screen and (max-width:768px){
+    nav {
+        padding: 0 10% 0;
+    }
     .sideArticles {
         display: none;
     }
@@ -254,6 +257,9 @@ footer {
     }
 }
 @media screen and (max-width:425px){
+    nav {
+        padding: 0 5% 0;
+    }
     header {
         display: flex;
         flex-direction: column;
