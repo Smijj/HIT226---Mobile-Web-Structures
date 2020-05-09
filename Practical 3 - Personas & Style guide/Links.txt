@@ -1,0 +1,2 @@
+To component design repository: github.com/Smijj/Component-Design
+Github pages: smijj.github.io
