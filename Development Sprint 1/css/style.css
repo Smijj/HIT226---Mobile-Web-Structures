@@ -17,7 +17,7 @@ Main: lightgrey
 
 /* ----- General ----- */
 ::-webkit-scrollbar {
-    display: none;
+    
 }
 ul {
     list-style-type: none;
