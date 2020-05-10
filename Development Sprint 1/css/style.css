@@ -231,7 +231,7 @@ footer {
     margin: 5px auto 15px;
     padding: 10px;
     width: 400px;
-    /* height: auto; */
+    height: auto;
     text-align: center;
     transition: background-color, 0.4s;
 }
@@ -257,7 +257,8 @@ footer {
 }
 .sideList a {
     display: block;
-    padding: 2px 0 2px;
+    padding: 5px 0 5px;
+    border-bottom: 3px solid #530b7a;
     text-decoration: none;
     color: black;
     transition: background-color, color, 0.4s;
@@ -298,15 +299,7 @@ footer {
 |_|  |_|_____|____/___/_/   \_\  \__\_\\___/|_____|_| \_\___|_____|____/  */
 
 /* ----- Media Queries ----- */
-@media screen and (max-width:1024px){
-    /* General */
-    nav {
-        padding: 0 15% 0;
-    }
-    main {
-        width: 100%;
-    }
-
+@media screen and (max-width:1440px){
     /* Index Page */
     #mainArticleContainer {
         flex-direction: column;
@@ -324,6 +317,16 @@ footer {
         border-left: none;
         padding: 0 10px 0;
         width: auto;
+    }
+}
+
+@media screen and (max-width:1024px){
+    /* General */
+    nav {
+        padding: 0 15% 0;
+    }
+    main {
+        width: 100%;
     }
 }
 
