@@ -1,9 +1,56 @@
+
+/* 
+  ____ _____ _   _ _____ ____      _    _     
+  / ___| ____| \ | | ____|  _ \    / \  | |    
+ | |  _|  _| |  \| |  _| | |_) |  / _ \ | |    
+ | |_| | |___| |\  | |___|  _ <  / ___ \| |___ 
+  \____|_____|_| \_|_____|_| \_\/_/   \_\_____|
+                                                */
+
+
 /* 
 Colours:
 Highlight: #530b7a
 Background: gainsboro
 Main: lightgrey
 */
+
+/* ----- General ----- */
+::-webkit-scrollbar {
+    display: none;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+.textVerticalAlign {
+    text-align: center;
+}
+.flexDirRow {
+    display: flex;
+    flex-direction: row;
+}
+.flexDirColumn {
+    display: flex;
+    flex-direction: column;
+}
+.flexAlignCenter{
+    align-items: center;
+}
+[data-href] {
+    cursor: pointer;
+}
+
+/* ----- Body ----- */
+body {
+    margin: 0px;
+    background-color: gainsboro;
+    Font-family: 'Segoe UI';
+}
+main {
+    margin: 10px 10px 0;
+    width: 80%;
+}
 
 /* ----- Header ----- */
 .title {
@@ -69,17 +116,6 @@ nav a:hover {
     background-color: #3f075d;
 }
 
-/* ----- Body ----- */
-body {
-    margin: 0px;
-    background-color: gainsboro;
-    Font-family: 'Segoe UI';
-}
-main {
-    margin: 10px 10px 0;
-    width: 80%;
-}
-
 /* ----- General Articles ----- */
 .articleImg {
     width: 100px; /*TEMP*/
@@ -94,6 +130,38 @@ main {
     font-size: 18px;
     font-weight: normal;
 }
+
+/* ----- Footer ----- */
+footer {
+    width: 100%;
+    height: min-content;
+    background-color: lightgray;
+    border-bottom: 5px solid #530b7a;
+}
+.footerLinks {
+    margin: 20px 0 0;
+}
+.footerLinks a {
+    color: black;
+    background-color: lightgray;
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 5px;
+    transition: background-color 0.4s;
+}
+.footerLinks a:hover {
+    background-color: #bbbbbb;
+}
+
+
+
+/* 
+ ___ _   _ ____  _______  __  ____   _    ____ _____ 
+|_ _| \ | |  _ \| ____\ \/ / |  _ \ / \  / ___| ____|
+ | ||  \| | | | |  _|  \  /  | |_) / _ \| |  _|  _|  
+ | || |\  | |_| | |___ /  \  |  __/ ___ \ |_| | |___ 
+|___|_| \_|____/|_____/_/\_\ |_| /_/   \_\____|_____|*/
+
 
 /* ----- Main Articles ----- */
 #mainArticleContainer {
@@ -163,7 +231,6 @@ main {
     background-color: rgb(190, 190, 190);
 }
 
-
 /* ----- Right Sidebar ----- */
 .sideArticles {
     width: 20%;
@@ -193,27 +260,13 @@ main {
 }
 
 
-/* ----- Footer ----- */
-footer {
-    width: 100%;
-    height: min-content;
-    background-color: lightgray;
-    border-bottom: 5px solid #530b7a;
-}
-.footerLinks {
-    margin: 20px 0 0;
-}
-.footerLinks a {
-    color: black;
-    background-color: lightgray;
-    text-decoration: none;
-    padding: 10px;
-    margin-left: 5px;
-    transition: background-color 0.4s;
-}
-.footerLinks a:hover {
-    background-color: #bbbbbb;
-}
+
+/* 
+ _  _    ___  _  _     ____   _    ____ _____ 
+| || |  / _ \| || |   |  _ \ / \  / ___| ____|
+| || |_| | | | || |_  | |_) / _ \| |  _|  _|  
+|__   _| |_| |__   _| |  __/ ___ \ |_| | |___ 
+   |_|  \___/   |_|   |_| /_/   \_\____|_____| */
 
 #style_404{
     width: 100%; 
@@ -227,32 +280,14 @@ footer {
     margin: 10px 0 5px;
 }
 
-/* ----- General ----- */
-::-webkit-scrollbar {
-    display: none;
-}
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-.textVerticalAlign {
-    text-align: center;
-}
-.flexDirRow {
-    display: flex;
-    flex-direction: row;
-}
-.flexDirColumn {
-    display: flex;
-    flex-direction: column;
-}
-.flexAlignCenter{
-    align-items: center;
-}
-[data-href] {
-    cursor: pointer;
-}
 
+
+/* 
+ __  __ _____ ____ ___    _       ___  _   _ _____ ____  ___ _____ ____  
+|  \/  | ____|  _ \_ _|  / \     / _ \| | | | ____|  _ \|_ _| ____/ ___| 
+| |\/| |  _| | | | | |  / _ \   | | | | | | |  _| | |_) || ||  _| \___ \ 
+| |  | | |___| |_| | | / ___ \  | |_| | |_| | |___|  _ < | || |___ ___) |
+|_|  |_|_____|____/___/_/   \_\  \__\_\\___/|_____|_| \_\___|_____|____/  */
 
 /* ----- Media Queries ----- */
 @media screen and (max-width:1024px){
