@@ -291,12 +291,15 @@ footer {
 
 /* ----- Media Queries ----- */
 @media screen and (max-width:1024px){
+    /* General */
     nav {
         padding: 0 15% 0;
     }
     main {
         width: 100%;
     }
+
+    /* Index Page */
     #mainArticleContainer {
         flex-direction: column;
         text-align: center;
@@ -317,9 +320,12 @@ footer {
 }
 
 @media screen and (max-width:768px){
+    /* General */
     nav {
         padding: 0 10% 0;
     }
+
+    /* Index Page */
     .sideArticles {
         display: none;
     }
@@ -330,6 +336,7 @@ footer {
 }
 
 @media screen and (max-width:425px){
+    /* General */
     nav {
         padding: 0 5% 0;
     }
@@ -345,6 +352,7 @@ footer {
         text-align: center;
     }
     
+    /* Index Page */
     #recentArticleContainer section{
         flex-direction: column;
         align-items: center;
@@ -356,6 +364,8 @@ footer {
         width: 300px;
         height: 300px;
     }
+
+    /* 404 Page */
     #style_404 section{ 
         width: 70%;
     }
