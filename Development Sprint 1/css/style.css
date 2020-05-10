@@ -257,8 +257,8 @@ footer {
 }
 .sideList a {
     display: block;
-    padding: 5px 0 5px;
-    border-bottom: 3px solid #530b7a;
+    padding: 5px 5px 5px;
+    border-top: 1px solid #530b7a8a;
     text-decoration: none;
     color: black;
     transition: background-color, color, 0.4s;
