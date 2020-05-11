@@ -363,18 +363,21 @@ _        _  _____ _____ ____ _____
 /* Latest Articles */
 .latestArticle {
 	align-items: left; 
-	height: min-content;
+	height: 180px;
     width: 100%;
     border-radius: 5px;
     transition: background-color, 0.4s;
+	overflow: hidden;
 }
 .latestArticle:hover {
     background-color: rgb(190, 190, 190);
 }
 .latestArticle .articleImg {
-    height: 180px;
+    object-fit: cover;
+	height: 180px;
     width: auto;
 	margin-right: 10px;
+	max-width: 50%;
 }
 .latestArticle .articleHeading {
     margin: 0px;
