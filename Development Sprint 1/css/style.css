@@ -139,11 +139,13 @@ nav a:hover {
 .articleText {
     font-size: 18px;
     font-weight: normal;
+    padding: 5px;
 }
 
 /* ----- Footer ----- */
 footer {
     width: 100%;
+    padding-bottom: 5px;
     height: min-content;
     background-color: lightgray;
     border-bottom: 5px solid #530b7a;
@@ -161,6 +163,26 @@ footer {
 }
 .footerLinks a:hover {
     background-color: #bbbbbb;
+}
+
+/* Advertisment */
+.adHorizontal {
+    margin: 5px 0 5px;
+    padding: 0;
+    height: 15vh;
+}
+.adHorizontal img {
+    height: 100%;
+}
+.adVertical {
+    width: 100%;
+    background-color: gainsboro;
+    margin: 5px 0 5px;
+    padding: 0;
+}
+.adVertical img{
+    width: 70%;
+    padding: 5px;
 }
 
 
@@ -199,9 +221,11 @@ footer {
 }
 .featuredArticleHeading {
     font-size: 35px;
+    margin: 10px 15px;
 }
 .featuredArticleText {
     font-weight: bold;
+    padding: 5px;
 }
 
 /* Recent Article */
@@ -220,17 +244,6 @@ footer {
 }
 #recentArticleContainer article:hover {
     background-color: rgb(190, 190, 190);
-}
-
-/* Advertisment */
-.ad {
-    margin: 5px 0 5px;
-    padding: 0;
-    height: 15vh;
-}
-.adImg {
-    /* width: 70%; */
-    height: 100%;
 }
 
 /* Scrolling Articles */
@@ -280,6 +293,7 @@ footer {
     background-color: #530b7a;
     color: white;
 }
+
 
 
 
@@ -381,17 +395,33 @@ ____   ___  _     ___ _____ ___ ____ ____    ____   _    ____ _____
     margin: auto;
     width: 70%;
 }
-
-.featurePoliticsArticle {
-    background-color: lightgrey;
+#mainPoliticsArticleContainer h1 {
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
 }
+
+#featurePoliticsArticle {
+    background-color: lightgrey;
+    border-radius: 5px;
+    padding: 5px;
+}
+#featurePoliticsArticle:hover {
+    background-color: rgb(190, 190, 190);
+}
+#featurePoliticsArticle .featuredArticleText{
+    width: 70%;
+}
+
 
 #recentPoliticsArticleContainer {
     width: 100%;
     padding: 5px 0 0;
 }
 #recentPoliticsArticleContainer article {
+    width: 50%;
     border-radius: 5px;
+    padding: 5px;
     transition: background-color, 0.4s;
 }
 #recentPoliticsArticleContainer article:hover {
@@ -456,6 +486,11 @@ _______  __    _    __  __ ____  _     _____
     main {
         width: 100%;
     }
+
+    /* Index Page */
+    .sideArticles {
+        display: none;
+    }
 }
 
 @media screen and (max-width:768px){
@@ -465,9 +500,6 @@ _______  __    _    __  __ ____  _     _____
     }
 
     /* Index Page */
-    .sideArticles {
-        display: none;
-    }
     #scrollingArticleContainer article {
         width: 350px;
         height: auto;
