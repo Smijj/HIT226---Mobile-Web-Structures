@@ -340,6 +340,14 @@ _        _  _____ _____ ____ _____
 	padding: 0px;
 }
 
+.divider {
+	border: 0;
+	clear:both; 
+	display:block; 
+	width: 100%; 
+	background-color:black; 
+	height: 2px;
+}
 
 
 /* 
