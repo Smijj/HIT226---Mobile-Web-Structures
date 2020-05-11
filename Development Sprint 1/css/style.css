@@ -44,6 +44,9 @@ ul {
 .flexAlignCenter{
     align-items: center;
 }
+.flexJustifyCentre {
+    justify-content: center;
+}
 [data-href] {
     cursor: pointer;
 }
@@ -336,34 +339,48 @@ _        _  _____ _____ ____ _____
 	height: 180px;
 	width: 100%;
 }
-
 .latestArticle:hover {
 	background-color: rgb(190, 190, 190);
 }
-
-
 .latestArticleImgContainer {
-	height: 180px;
+    height: 180px;
 	margin-right: 10px;
 }
-
 .latestArticleImg {
-	height: 100%;
+    height: 100%;
 	width: auto;
 }
-
 .latestArticleText h2, p {
-	margin: 0px;
+    margin: 0px;
 	padding: 0px;
 }
-
 .divider {
-	border: 0;
+    border: 0;
 	clear:both; 
 	display:block; 
 	width: 100%; 
 	background-color:black; 
 	height: 2px;
+}
+main.latestArticleContainer {
+    width: 80%;
+}
+.latestArticlePopContainer {
+    flex-flow: wrap row;
+    height: 180px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.latestArticlePop {
+    width: 22%;
+    margin: auto;
+    background-color: none;
+}
+
+.latestArticlePopImg {
+    min-width: 266.6px;
+    width: 100%;
+    height: auto;
 }
 
 
