@@ -161,6 +161,24 @@ footer {
     background-color: #bbbbbb;
 }
 
+/* Advertisment */
+.adHorizontal {
+    margin: 5px 0 5px;
+    padding: 0;
+    height: 15vh;
+}
+.adHorizontal img {
+    height: 100%;
+}
+.adVertical {
+    width: min-content;
+    margin: 5px 0 5px;
+    padding: 0;
+}
+.adVertical img{
+    height: 100%;
+}
+
 
 
 /* 
@@ -220,17 +238,6 @@ footer {
 }
 #recentArticleContainer article:hover {
     background-color: rgb(190, 190, 190);
-}
-
-/* Advertisment */
-.ad {
-    margin: 5px 0 5px;
-    padding: 0;
-    height: 15vh;
-}
-.adImg {
-    /* width: 70%; */
-    height: 100%;
 }
 
 /* Scrolling Articles */
