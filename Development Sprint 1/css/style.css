@@ -375,8 +375,11 @@ main.latestArticleContainer {
     width: 22%;
     margin: auto;
     background-color: none;
+    transition: opacity, .4s;
 }
-
+.latestArticlePop:hover {
+    opacity: 70%;
+}
 .latestArticlePopImg {
     min-width: 266.6px;
     width: 100%;
