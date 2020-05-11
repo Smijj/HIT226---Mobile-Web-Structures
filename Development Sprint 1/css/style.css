@@ -174,7 +174,7 @@ footer {
 .adVertical {
     width: 100%;
     background-color: gainsboro;
-    margin: 5px 0 5px;
+    margin: 10px 0 0;
     padding: 0;
 }
 .adVertical img{
@@ -200,7 +200,7 @@ footer {
 }
 
 /* Feature Article */
-.featureArticle {
+#featureArticleContainer {
     width: 60%;
     height: 100%;
     padding: 10px 0 10px;
@@ -209,18 +209,18 @@ footer {
     border-radius: 5px;
     transition: background-color, 0.4s;
 }
-.featureArticle:hover {
+#featureArticleContainer:hover {
     background-color: rgb(190, 190, 190);
 }
-.featureArticleImg {
+#featureArticleContainer .articleImg {
     width: 50%;
     height: auto;
 }
-.featuredArticleHeading {
+#featureArticleContainer .articleHeading {
     font-size: 35px;
     margin: 10px 15px;
 }
-.featuredArticleText {
+#featureArticleContainer .articleText {
     font-weight: bold;
     padding: 5px;
 }
@@ -263,7 +263,7 @@ footer {
 }
 
 /* ----- Right Sidebar ----- */
-.sideArticles {
+#sideArticles {
     width: 20%;
     height: min-content;
     margin: 10px 10px 10px;
@@ -448,7 +448,7 @@ _______  __    _    __  __ ____  _     _____
         padding: 0 10px 0;
         width: auto;
     }
-    .featureArticle {
+    #featureArticleContainer {
         width: auto;
         border-bottom: 5px solid #530b7a;
         margin-bottom: 15px;
@@ -471,7 +471,7 @@ _______  __    _    __  __ ____  _     _____
     }
 
     /* Index Page */
-    .sideArticles {
+    #sideArticles {
         display: none;
     }
 }
@@ -518,10 +518,10 @@ _______  __    _    __  __ ____  _     _____
         width: 300px;
         height: auto;
     }
-    .ad {
+    .adHorizontal {
         height: min-content;
     }
-    .adImg {
+    .adHorizontal img {
         width: 100%;
         height: auto;
 }
