@@ -465,7 +465,14 @@ _______  __    _    __  __ ____  _     _____
  / ___ \|  _ < | |  | | |___| |___| |___ ___) |
 /_/   \_\_| \_\|_| |___\____|_____|_____|____/  */
 
-
+.exampleArticleContainer {
+    margin: 30px auto;
+    width: 80%;
+}
+.exampleArticleText {
+    min-width: 500px;
+    max-width: 70%;
+}
 
 
 
