@@ -136,6 +136,7 @@ nav a:hover {
 .articleText {
     font-size: 18px;
     font-weight: normal;
+    padding: 5px;
 }
 
 /* ----- Footer ----- */
@@ -196,9 +197,11 @@ footer {
 }
 .featuredArticleHeading {
     font-size: 35px;
+    margin: 10px 15px;
 }
 .featuredArticleText {
     font-weight: bold;
+    padding: 5px;
 }
 
 /* Recent Article */
@@ -364,17 +367,33 @@ ____   ___  _     ___ _____ ___ ____ ____    ____   _    ____ _____
     margin: auto;
     width: 70%;
 }
-
-.featurePoliticsArticle {
-    background-color: lightgrey;
+#mainPoliticsArticleContainer h1 {
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
 }
+
+#featurePoliticsArticle {
+    background-color: lightgrey;
+    border-radius: 5px;
+    padding: 5px;
+}
+#featurePoliticsArticle:hover {
+    background-color: rgb(190, 190, 190);
+}
+#featurePoliticsArticle .featuredArticleText{
+    width: 70%;
+}
+
 
 #recentPoliticsArticleContainer {
     width: 100%;
     padding: 5px 0 0;
 }
 #recentPoliticsArticleContainer article {
+    width: 50%;
     border-radius: 5px;
+    padding: 5px;
     transition: background-color, 0.4s;
 }
 #recentPoliticsArticleContainer article:hover {
@@ -439,6 +458,11 @@ _______  __    _    __  __ ____  _     _____
     main {
         width: 100%;
     }
+
+    /* Index Page */
+    .sideArticles {
+        display: none;
+    }
 }
 
 @media screen and (max-width:768px){
@@ -448,9 +472,6 @@ _______  __    _    __  __ ____  _     _____
     }
 
     /* Index Page */
-    .sideArticles {
-        display: none;
-    }
     #scrollingArticleContainer article {
         width: 350px;
         height: auto;
