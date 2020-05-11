@@ -313,9 +313,32 @@ _        _  _____ _____ ____ _____
 /_/   \_\_| \_\|_| |___\____|_____|_____|____/  |_| /_/   \_\____|_____| */
 
 
+.latestArticle {
+	align-items: left; 
+	display: flex;
+	height: 180px;
+	width: 100%;
+}
+
+.latestArticle:hover {
+	background-color: rgb(190, 190, 190);
+}
 
 
+.latestArticleImgContainer {
+	height: 180px;
+	margin-right: 10px;
+}
 
+.latestArticleImg {
+	height: 100%;
+	width: auto;
+}
+
+.latestArticleText h2, p {
+	margin: 0px;
+	padding: 0px;
+}
 
 
 
