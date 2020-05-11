@@ -383,8 +383,12 @@ _        _  _____ _____ ____ _____
     width: 22%;
     margin: auto;
     background-color: none;
+    transition: opacity .2s ease-in;
 }
-
+.latestArticlePop:hover {
+    opacity: 70%;
+    transition: opacity, .4s ease-out;
+}
 .latestArticlePopImg {
     min-width: 266.6px;
     width: 100%;
