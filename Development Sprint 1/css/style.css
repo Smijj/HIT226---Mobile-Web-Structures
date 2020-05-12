@@ -32,6 +32,8 @@ ul {
 }
 .textVerticalAlign {
     text-align: center;
+	padding: 0;
+	margin: 0;
 }
 .flexDirRow {
     display: flex;
@@ -52,14 +54,24 @@ ul {
 }
 
 /* ----- Body ----- */
+html {
+	height: 100%;
+	margin: 0;
+}
+
 body {
+	height: 100%;
     margin: 0px;
     background-color: gainsboro;
     Font-family: 'Segoe UI';
+	display: flex;
+	flex-flow: column;
+	height: 100%;
 }
 main {
     margin: 10px 10px 0;
     width: 80%;
+	flex-grow: 1;
 }
 
 /* ----- Header ----- */
