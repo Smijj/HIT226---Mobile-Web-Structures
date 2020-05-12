@@ -487,6 +487,7 @@ _______  __    _    __  __ ____  _     _____
     object-fit: cover;
     min-width: auto;
     max-width: 50%;
+    max-height: 400px;
     padding: 5px;
     margin: 20px 0 20px;
 }
@@ -555,7 +556,7 @@ _______  __    _    __  __ ____  _     _____
     .exampleArticleContainer .articleImg {
         max-width: 100%;
         min-width: auto;
-
+        max-height: 600px;
     }
     .exampleArticleContainer .articleText {
         text-align: center;
