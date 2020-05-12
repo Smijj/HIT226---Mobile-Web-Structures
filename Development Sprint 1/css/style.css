@@ -556,6 +556,23 @@ _______  __    _    __  __ ____  _     _____
         width: 350px;
         height: auto;
     }
+
+    /* Example Article */
+    .exampleArticleContainer{
+        width: 95%;
+    }
+    .exampleArticleContainer div{
+        flex-direction: column;
+        align-items: center;
+    }
+    .exampleArticleContainer .articleImg {
+        max-width: 100%;
+        min-width: auto;
+
+    }
+    .exampleArticleContainer .articleText {
+        text-align: center;
+    }
 }
 
 @media screen and (max-width:425px){
