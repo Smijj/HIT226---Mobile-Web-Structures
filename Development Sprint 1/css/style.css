@@ -543,19 +543,6 @@ _______  __    _    __  __ ____  _     _____
     #sideArticles {
         display: none;
     }
-}
-
-@media screen and (max-width:768px){
-    /* General */
-    nav {
-        padding: 0 10% 0;
-    }
-
-    /* Index Page */
-    #scrollingArticleContainer article {
-        width: 350px;
-        height: auto;
-    }
 
     /* Example Article */
     .exampleArticleContainer{
@@ -572,6 +559,19 @@ _______  __    _    __  __ ____  _     _____
     }
     .exampleArticleContainer .articleText {
         text-align: center;
+    }
+}
+
+@media screen and (max-width:768px){
+    /* General */
+    nav {
+        padding: 0 10% 0;
+    }
+
+    /* Index Page */
+    #scrollingArticleContainer article {
+        width: 350px;
+        height: auto;
     }
 }
 
