@@ -472,9 +472,17 @@ _______  __    _    __  __ ____  _     _____
     margin: 30px auto;
     width: 80%;
 }
-.exampleArticleText {
+.exampleArticleContainer .articleImg {
+    object-fit: cover;
+    min-width: auto;
+    max-width: 50%;
+    padding: 5px;
+    margin: 20px 0 20px;
+}
+.exampleArticleContainer .articleText {
     min-width: auto;
     max-width: 70%;
+    text-align: left;
 }
 
 
@@ -536,6 +544,23 @@ _______  __    _    __  __ ____  _     _____
     #scrollingArticleContainer article {
         width: 350px;
         height: auto;
+    }
+
+    /* Example Article */
+    .exampleArticleContainer{
+        width: 95%;
+    }
+    .exampleArticleContainer div{
+        flex-direction: column;
+        align-items: center;
+    }
+    .exampleArticleContainer .articleImg {
+        max-width: 100%;
+        min-width: auto;
+
+    }
+    .exampleArticleContainer .articleText {
+        text-align: center;
     }
 }
 
