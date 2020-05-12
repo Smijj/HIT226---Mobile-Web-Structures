@@ -350,14 +350,18 @@ _        _  _____ _____ ____ _____
 /* Popular Articles */
 .latestArticlePopContainer {
     display: flex;
-    flex-flow: wrap row;
-    height: 180px;
+    flex-direction: row;
+    height: auto;
     width: 100%;
     margin-bottom: 30px;
 }
-.latestArticlePop {
-    width: 22%;
+.latestArticlePopContainer div{
+    display: flex;
+    flex-direction: row; 
     margin: auto;
+}
+.latestArticlePop {
+    margin: 10px;
     background-color: none;
     transition: opacity .2s ease-in;
 }
@@ -529,6 +533,17 @@ _______  __    _    __  __ ____  _     _____
         padding: 0 10px 0;
         width: auto;
     }
+
+    /* Latest Article Page */
+    .latestArticlePopContainer {
+        flex-direction: column;
+    }
+    .latestArticlePop {
+        width: min-content;
+    }
+    .latestArticlePopImg {
+        max-width: 22%;
+    }
 }
 
 @media screen and (max-width:1024px){
@@ -545,7 +560,7 @@ _______  __    _    __  __ ____  _     _____
         display: none;
     }
 
-    /* Example Article */
+    /* Example Article Page */
     .exampleArticleContainer{
         width: 95%;
     }
@@ -611,7 +626,12 @@ _______  __    _    __  __ ____  _     _____
     .adHorizontal img {
         width: 100%;
         height: auto;
-}
+    }
+
+    /* Latest Article Page */
+    .latestArticlePopContainer div {
+        flex-direction: column;
+    }
 
     /* 404 Page */
     #style_404 section{ 
