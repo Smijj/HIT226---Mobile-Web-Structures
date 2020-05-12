@@ -306,8 +306,8 @@ footer {
    |_|  \___/   |_|   |_| /_/   \_\____|_____| */
 
 #style_404{
-    width: 100%; 
-    margin: 5px;
+    width: 80%;
+    margin: auto;
 }
 #style_404 section{ 
     width: 50%;
