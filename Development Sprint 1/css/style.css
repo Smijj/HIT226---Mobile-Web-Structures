@@ -473,7 +473,7 @@ _______  __    _    __  __ ____  _     _____
     width: 80%;
 }
 .exampleArticleText {
-    min-width: 500px;
+    min-width: auto;
     max-width: 70%;
 }
 
