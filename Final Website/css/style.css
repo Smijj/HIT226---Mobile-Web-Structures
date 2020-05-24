@@ -284,7 +284,7 @@ footer {
     width: 20%;
     height: min-content;
     margin: 10px 10px 10px;
-    text-align: center;
+    text-align: left;
     background-color: lightgrey;
 }
 .sideHeader {
@@ -444,7 +444,7 @@ ____   ___  _     ___ _____ ___ ____ ____    ____   _    ____ _____
     background-color: rgb(190, 190, 190);
 }
 #featurePoliticsArticle .articleImg{
-    width: 50%;
+    width: 80%;
     height: auto;
 }
 #featurePoliticsArticle .articleHeading{
