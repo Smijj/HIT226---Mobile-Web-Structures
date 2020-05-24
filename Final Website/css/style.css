@@ -230,7 +230,7 @@ footer {
     background-color: rgb(190, 190, 190);
 }
 #featureArticle .articleImg {
-    width: 50%;
+    width: 90%;
     height: auto;
 }
 #featureArticle .articleHeading {
@@ -238,8 +238,8 @@ footer {
     margin: 10px 15px;
 }
 #featureArticle .articleText {
-    font-weight: bold;
     padding: 5px;
+	margin: 0px 10px;
 }
 
 /* Recent Article */
