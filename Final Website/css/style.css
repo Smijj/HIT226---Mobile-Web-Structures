@@ -63,7 +63,7 @@ body {
 	height: 100%;
     margin: 0px;
     background-color: gainsboro;
-    Font-family: 'Segoe UI';
+    font-family: 'Segoe UI';
 	display: flex;
 	flex-flow: column;
 	height: 100%;
