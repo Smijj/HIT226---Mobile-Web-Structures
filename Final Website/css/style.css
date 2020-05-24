@@ -449,13 +449,13 @@ ____   ___  _     ___ _____ ___ ____ ____    ____   _    ____ _____
 }
 #featurePoliticsArticle .articleHeading{
     font-size: 35px;
-    margin: 10px 15px;
+    width: 80%;
+    margin: 10px 0px;
 }
 #featurePoliticsArticle .articleText{
     font-weight: bold;
     padding: 5px;
-    /* width: 70%; */
-    margin: 0 15px;
+    width: 80%;
 }
 
 /* Recent Politic Articles */
