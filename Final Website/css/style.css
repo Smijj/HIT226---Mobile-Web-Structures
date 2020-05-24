@@ -454,7 +454,8 @@ ____   ___  _     ___ _____ ___ ____ ____    ____   _    ____ _____
 #featurePoliticsArticle .articleText{
     font-weight: bold;
     padding: 5px;
-    width: 70%;
+    /* width: 70%; */
+    margin: 0 15px;
 }
 
 /* Recent Politic Articles */
