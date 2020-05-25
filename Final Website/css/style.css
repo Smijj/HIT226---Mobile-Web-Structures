@@ -588,8 +588,8 @@ _______  __    _    __  __ ____  _     _____
     }
 
     /* Index Page */
-    #sideBar {
-        display: none;
+    .adVertical img{
+        width: 90%;
     }
 
     /* Example Article Page */
@@ -620,6 +620,9 @@ _______  __    _    __  __ ____  _     _____
     #scrollingArticleContainer article {
         width: 350px;
         height: auto;
+    }
+    #sideBar {
+        display: none;
     }
 }
 
