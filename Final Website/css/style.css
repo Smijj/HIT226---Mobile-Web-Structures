@@ -260,14 +260,13 @@ footer {
     background-color: rgb(190, 190, 190);
 }
 
-/* Title Divider Thing */
-#titleDivideContainer {
-	width: 100%;
-	margin: 50px 0px 20px;
-}
-
 
 /* Scrolling Articles */
+#scrollingHeading {
+	width: 100%;
+    margin: 50px 0px 20px;
+    text-align: center;
+}
 #scrollingArticleContainer {
     display: flex;
     flex-flow: wrap row;
