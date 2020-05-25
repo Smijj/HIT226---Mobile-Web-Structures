@@ -280,23 +280,23 @@ footer {
 }
 
 /* ----- Right Sidebar ----- */
-#sideArticles {
+#sideBar {
     width: 20%;
     height: min-content;
     margin: 10px 10px 10px;
-    text-align: left;
+    text-align: center;
     background-color: lightgrey;
 }
-.sideHeader {
+#sideBar .sideHeader {
     margin: 10px 0 10px;
-	text-align: center;
+    font-size: 25px;
 }
-.sideList {
+#sideBar .sideList {
     list-style-type: none;
     padding: 0;
     margin: 0 0 30px;
 }
-.sideList a {
+#sideBar .sideList a {
     display: block;
     padding: 5px 5px 5px;
     border-top: 1px solid #530b7a8a;
@@ -304,11 +304,10 @@ footer {
     color: black;
     transition: background-color, color, 0.4s;
 }
-.sideList a:hover{
+#sideBar .sideList a:hover{
     background-color: #530b7a;
     color: white;
 }
-
 
 
 
