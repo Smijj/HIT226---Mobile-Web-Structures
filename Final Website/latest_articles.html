@@ -23,7 +23,7 @@
         </div>
 
         <nav>
-            <ul>
+            <ul id="websiteView">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="latest_articles.html">Latest Articles</a></li>
                 <li><a href="topic_politics.html">Politics</a></li>
@@ -31,6 +31,17 @@
                 <li><a href="404.html">Local</a></li>
                 <li><a href="404.html">Entertainment</a></li>
             </ul>
+            <p id="mobileView" data-href="#" onclick="overlay()">Open/Close Menu</p>
+            <div id="overlay">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="latest_articles.html">Latest Articles</a></li>
+                    <li><a href="topic_politics.html">Politics</a></li>
+                    <li><a href="404.html">Sports</a></li>
+                    <li><a href="404.html">Local</a></li>
+                    <li><a href="404.html">Entertainment</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
 
@@ -185,4 +196,4 @@
     </footer>
 </body>
 
-<script type="text/javascript" src="js/refscript.js"></script>
+<script type="text/javascript" src="js/javascript.js"></script>
