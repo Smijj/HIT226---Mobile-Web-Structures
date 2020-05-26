@@ -321,19 +321,30 @@ footer {
     padding: 0;
     margin: 0 0 30px;
 }
+#sideBar .sideList li {
+    border-top: 1px solid #530b7a8a;
+    transition: background-color, 0.4s;
+}
+#sideBar .sideList li:hover{
+    background-color: #530b7a;
+}
 #sideBar .sideList a {
     display: block;
     padding: 5px 5px 5px;
-    border-top: 1px solid #530b7a8a;
     text-decoration: none;
     color: black;
-    transition: background-color, color, 0.4s;
+    transition: color, 0.4s;
 }
-#sideBar .sideList a:hover{
-    background-color: #530b7a;
+#sideBar .sideList li:hover a{
     color: white;
 }
 
+#socials li {
+    padding-left: 33%;
+}
+#socials img {
+    height: 15px;
+}
 
 
 
@@ -523,7 +534,6 @@ _______  __    _    __  __ ____  _     _____
     object-fit: cover;
     min-width: auto;
     max-width: 50%;
-    /* max-height: 400px; */
     padding: 5px;
     margin: 20px 0 20px;
 }
@@ -588,6 +598,9 @@ _______  __    _    __  __ ____  _     _____
     }
 
     /* Index Page */
+    #socials li {
+        padding-left: 20%;
+    }
     .adVertical img{
         width: 90%;
     }

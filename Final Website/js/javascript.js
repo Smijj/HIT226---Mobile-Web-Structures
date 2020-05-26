@@ -6,7 +6,7 @@ jQuery(document).ready(function($) {
             });
         });
 
-// For the nav bar
+// For the nav bar in mobile view
 function overlay() {
     el = document.getElementById("overlay");
     el.style.display = (el.style.display == "block") ? "none" : "block";
